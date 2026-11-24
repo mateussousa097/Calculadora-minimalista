@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="calculadora">
+    <div class="visor" id="visor">0</div>
+
+    <div class="teclado" id="teclado">
+      <button data-tipo="limpar">C</button>
+      <button data-tipo="apagar">⌫</button>
+      <button data-tipo="operador" data-valor="/">÷</button>
+      <button data-tipo="operador" data-valor="*">×</button>
+
+      <button data-tipo="numero" data-valor="7">7</button>
+      <button data-tipo="numero" data-valor="8">8</button>
+      <button data-tipo="numero" data-valor="9">9</button>
+      <button data-tipo="operador" data-valor="-">−</button>
+
+      <button data-tipo="numero" data-valor="4">4</button>
+      <button data-tipo="numero" data-valor="5">5</button>
+      <button data-tipo="numero" data-valor="6">6</button>
+      <button data-tipo="operador" data-valor="+">+</button>
+
+      <button data-tipo="numero" data-valor="1">1</button>
+      <button data-tipo="numero" data-valor="2">2</button>
+      <button data-tipo="numero" data-valor="3">3</button>
+      <button data-tipo="igual" class="igual">=</button>
+
+      <button data-tipo="numero" data-valor="0" class="zero">0</button>
+      <button data-tipo="decimal">.</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
